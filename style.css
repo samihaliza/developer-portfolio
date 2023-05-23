@@ -1,48 +1,82 @@
-body{
+body {
     font-family: 'Poppins', sans-serif;
-    margin:0;
-}
-h1{
-    font-size:50px;
+    margin: 0;
 }
 
-.orange-color{
-    color:orange;
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+.orange-color {
+    color: orange;
 
 }
-section{
-    display:flex;
-    margin-bottom:150px
+
+.flexible-container {
+    display: flex;
+    margin-bottom: 150px;
 }
-.half-width{
-    width:50%;
-    padding-left:5%;
+
+.half-width {
+    width: 50%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
-.half-width img{
-    width:80%;
+
+.half-width img {
+    width: 80%;
 }
-.link-button{
-    text-decoration:none;
-    background-image:linear-gradient(orange,tomato);
-    padding:10px 40px;
-    color:white;
-    font-weight:700;
-    border-radius:5px;
+
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 40px;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
 }
-.top-banner{
-    background-image:url("./images/top-banner.png");
+
+.top-banner {
+    background-image: url("./images/top-banner.png");
+    background-repeat: no-repeat;
+}
+
+.dream-big {
+    background-image: url("./images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.dream-big h1 {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.dream-big p {
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+
+.experience-area{
+    background-image:url("./images/exp-bg.png");
     background-repeat:no-repeat;
+    background-position:left;
 }
-.dream-big{
-    background-image:url("./images/dream-bg.png");
-    background-repeat:no-repeat;
-    background-position:right;
+
+.experience-item {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius:10px;
+    box-shadow: 10px 10px 40px gray;
+    border-left:7px solid blue;
 }
-.dream-big h1{
-    font-size:60px;
-    font-weight:bold;
-}
-.dream-big p{
-    font-size:16px;
-    padding-bottom:20px;
+#full-stack-developer{
+    border-left:7px solid tomato;
+
 }
